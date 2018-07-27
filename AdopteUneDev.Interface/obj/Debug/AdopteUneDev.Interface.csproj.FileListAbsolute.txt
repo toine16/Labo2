@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Interface\bin\Debug\AdopteUneDev.Interface.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Interface\bin\Debug\AdopteUneDev.Interface.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Interface\obj\Debug\AdopteUneDev.Interface.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Interface\obj\Debug\AdopteUneDev.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Interface\obj\Debug\AdopteUneDev.Interface.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Interface\obj\Debug\AdopteUneDev.Interface.pdb

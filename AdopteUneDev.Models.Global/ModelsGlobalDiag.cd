@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AdopteUneDev.Models.Global.Categorie">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAAAAAAAAAgAAAAAAAAACAAAgAACAAIAAAAA=</HashCode>
+      <FileName>Categorie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Langages" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Client">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAIQgAABAAAAAAAQAAAAAAABEAAAACBAIABQgAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+      <NewMemberFileName>General.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Forfait" />
+      <Property Name="Employeur" />
+      <Property Name="Entreprise" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Competences">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAACEAAAAACAAAAAAAA=</HashCode>
+      <FileName>Competences.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categories" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Developpeur">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEIBAACAAAiEAAgAABCAAEAAAACAAgIAAAAI=</HashCode>
+      <FileName>Developpeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Employeur">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAgAEAAAAAAAACAAAgAABDEAAAAAACAAgAAAAAI=</HashCode>
+      <FileName>Employeur.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Entreprise" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Employeur_Developpeur">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAgAAIAAABAAAAEABAAQAAAAAgAAgQAAAAgAAAA=</HashCode>
+      <FileName>Employeur_Developpeur.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Employeur" />
+      <Property Name="Developpeur" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Entreprise">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQACABAAAAAAACAAAAACAFDAAAAAAAAAAAQABAAI=</HashCode>
+      <FileName>Entreprise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Forfait">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAQAAACAAAAAQCAAQAAAAA=</HashCode>
+      <FileName>Forfait.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Langage">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAACEAAAAACAAAAAAAA=</HashCode>
+      <FileName>Langage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categories" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Softskills">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAACEAAAAACAAAAAAAA=</HashCode>
+      <FileName>Softskills.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categories" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Tarif">
+    <Position X="14" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Tarif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdopteUneDev.Models.Global.Tarif_Developpeur">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQAAAQIAAAAAAAAEAAAAQAAAAAABAAQAAAAAAAAA=</HashCode>
+      <FileName>Tarif_Developpeur.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Developpeur" />
+      <Property Name="Tarif" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

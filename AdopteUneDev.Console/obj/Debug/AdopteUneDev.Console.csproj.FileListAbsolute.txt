@@ -1,0 +1,16 @@
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.csprojAssemblyReference.cache
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Console.exe.config
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Console.exe
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Console.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.DbTools.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Models.Global.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.DbTools.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Models.Global.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.csproj.CopyComplete
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.exe
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\obj\Debug\AdopteUneDev.Console.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Interface.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Console\bin\Debug\AdopteUneDev.Interface.pdb

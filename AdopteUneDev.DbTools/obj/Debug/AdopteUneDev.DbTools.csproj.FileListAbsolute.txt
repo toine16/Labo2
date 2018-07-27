@@ -1,0 +1,17 @@
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.DbTools.dll
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.DbTools.pdb
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csprojAssemblyReference.cache
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csproj.CoreCompileInputs.cache
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.dll
+c:\users\administrator\source\repos\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.DbTools.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.DbTools.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Interface.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Models.Global.dll
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Interface.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Models.Global.pdb
+C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csproj.CopyComplete
