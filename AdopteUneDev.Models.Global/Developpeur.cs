@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdopteUneDev.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.Models.Global
 {
-    public class Developpeur
+    public class Developpeur : IEntity
     {
         #region Fields
         private Int32 _idDeveloppeur;
@@ -145,6 +146,19 @@ namespace AdopteUneDev.Models.Global
 
             set
             {
+            }
+        }
+
+        public int id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
             }
         }
     }

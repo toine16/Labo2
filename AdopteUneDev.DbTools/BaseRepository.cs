@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,7 +18,6 @@ namespace AdopteUneDev.DbTools
         public string DeleteCommand;
         public string InsertCommand;
         public string AllCommand;
-
 
         public abstract int Add(T o);
         public abstract int Update(T o);

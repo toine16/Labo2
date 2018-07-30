@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,6 +10,11 @@ namespace AdopteUneDev.DbTools
 {
     class ForfaitRepository : BaseRepository<Forfait>
     {
+        private DbConnect db;
+        public ForfaitRepository(DbConnect db)
+        {
+            this.db = db;
+        }
         public override int Add(Forfait o)
         {
             using (DbConnect db = new DbConnect(_cnsrt))
