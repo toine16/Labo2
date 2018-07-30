@@ -15,3 +15,14 @@ C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\Adopt
 C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Interface.pdb
 C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Models.Global.pdb
 C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csproj.CopyComplete
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.pdb
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.DbTools.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.DbTools.pdb
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Interface.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Models.Global.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Interface.pdb
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\bin\Debug\AdopteUneDev.Models.Global.pdb
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.DbTools\obj\Debug\AdopteUneDev.DbTools.csproj.CopyComplete

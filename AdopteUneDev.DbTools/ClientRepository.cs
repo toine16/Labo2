@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.DbTools
 {
-    class ClientRepository : BaseRepository<Client>
+    class ClientRepository : BaseRepository<Client,int>
     {
+        public ClientRepository()
+        {
+
+        }
+        
         public override int Add(Client o)
         {
             using (DbConnect db = new DbConnect(_cnsrt))

@@ -41,12 +41,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
+    <Compile Include="CategorieRepository.cs" />
     <Compile Include="ClientRepository.cs" />
+    <Compile Include="CompetencesRepository.cs" />
     <Compile Include="DbConnect.cs" />
+    <Compile Include="DeveloppeurRepository.cs" />
+    <Compile Include="EmployeurRepository.cs" />
+    <Compile Include="EntrepriseRepository.cs" />
     <Compile Include="ForfaitRepository.cs" />
-    <Compile Include="IRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="LangageRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requete.cs" />
+    <Compile Include="SoftskillsRepository.cs" />
+    <Compile Include="TarifRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdopteUneDev.Interface\AdopteUneDev.Interface.csproj">

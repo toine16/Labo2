@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdopteUneDev.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.Models.Global
 {
-    public class Softskills
+    public class Softskills : IEntity
     {
 
         #region Fields
@@ -25,6 +26,19 @@ namespace AdopteUneDev.Models.Global
             set
             {
                 _id = value;
+            }
+        }
+
+        public int id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
             }
         }
 

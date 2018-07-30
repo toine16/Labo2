@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdopteUneDev.Interface;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.Models.Global
 {
-    public class Categorie
+    public class Categorie : IEntity
     {
         #region Fields
         private Int32 _idCategorie;
@@ -76,6 +77,19 @@ namespace AdopteUneDev.Models.Global
 
             set
             {
+            }
+        }
+
+        public int id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
             }
         }
     }

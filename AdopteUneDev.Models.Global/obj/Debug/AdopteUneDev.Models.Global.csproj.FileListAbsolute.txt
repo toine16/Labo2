@@ -9,3 +9,12 @@ C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Models.Global\obj\Debug
 C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Models.Global\bin\Debug\AdopteUneDev.Interface.dll
 C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Models.Global\bin\Debug\AdopteUneDev.Interface.pdb
 C:\Users\Administrator\Desktop\AdopteUneDev\AdopteUneDev.Models.Global\obj\Debug\AdopteUneDev.Models.Global.csproj.CopyComplete
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\bin\Debug\AdopteUneDev.Models.Global.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\bin\Debug\AdopteUneDev.Models.Global.pdb
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\bin\Debug\AdopteUneDev.Interface.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\bin\Debug\AdopteUneDev.Interface.pdb
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\obj\Debug\AdopteUneDev.Models.Global.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\obj\Debug\AdopteUneDev.Models.Global.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\obj\Debug\AdopteUneDev.Models.Global.csproj.CopyComplete
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\obj\Debug\AdopteUneDev.Models.Global.dll
+C:\Users\Administrator\Desktop\AdopteUneDevGit\Labo2\AdopteUneDev.Models.Global\obj\Debug\AdopteUneDev.Models.Global.pdb

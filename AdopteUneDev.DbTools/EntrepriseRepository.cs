@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.DbTools
 {
-    class EntrepriseRepository : BaseRepository<Entreprise>
+    class EntrepriseRepository : BaseRepository<Entreprise,int>
     {
         private string _InsertCommand = "Insert into Entreprise(Nom,Bio,Rue,Numero,CP,Ville) output Inserted.IdEntreprise Values(@Nom,@Bio,@Rue,@Numero,@CP,@Ville)";
         private string _UpdateCommand = "Update Entreprise set Nom = @Nom,Bio = @Bio,Rue = @Rue,Numero =@Numero,CP =@CP,Ville = @Ville where IdEntreprise = @IdEntreprise";
@@ -18,7 +18,7 @@ namespace AdopteUneDev.DbTools
                 db.connect();
                 Dictionary<string, object> dico = MapTtoDico(o);
                 
-                return db.insert(InsertCommand, dico);
+                return db.insert(_InsertCommand, dico);
             }
         }
 
@@ -29,7 +29,7 @@ namespace AdopteUneDev.DbTools
                 db.connect();
                 Dictionary<string, object> dico = MapTtoDico(o);
 
-                return db.Update(InsertCommand, dico);
+                return db.Update(_UpdateCommand, dico);
             }
         }
 

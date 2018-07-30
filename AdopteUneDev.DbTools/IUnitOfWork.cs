@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdopteUneDev.Models.Global;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace AdopteUneDev.Interface
         IRepository<Client, int> ClientRepository
         {
             get;
-        }/*
+        }
         IRepository<Categorie, int> CategorieRepository
         {
             get;
@@ -47,6 +48,6 @@ namespace AdopteUneDev.Interface
         IRepository<Tarif, int> TarifRepository
         {
             get;
-        }*/
+        }
     }
 }

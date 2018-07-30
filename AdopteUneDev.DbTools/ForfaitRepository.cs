@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.DbTools
 {
-    class ForfaitRepository : BaseRepository<Forfait>
+    class ForfaitRepository : BaseRepository<Forfait,int>
     {
         private DbConnect db;
         public ForfaitRepository(DbConnect db)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.DbTools
 {
-    class DeveloppeurRepository : BaseRepository<Developpeur>
+    class DeveloppeurRepository : BaseRepository<Developpeur,int>
     {
         private string _InsertCommand = "Insert into Developpeur(Nom,Prenom,DateDeNaissance,Sexe,photo) output Inserted.IdDeveloppeur Values(@Nom,@Prenom,@DateDeNaissance,@Sexe,@Photo)";
         private string _UpdateCommand = "Update Developpeur set Nom =@Nom,Prenom =@Prenom,DateDeNaissance =@DateDeNaissance,Sexe =@Sexe, Photo =@Photo where IdDeveloppeur=@IdDeveloppeur";
