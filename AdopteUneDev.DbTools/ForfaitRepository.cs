@@ -9,17 +9,6 @@ namespace AdopteUneDev.DbTools
 {
     class ForfaitRepository : BaseRepository<Forfait>
     {
-        public Forfait GetOne(int id)
-        {
-            Dictionary<string, object> dico = base.GetOne(new Forfait() {id = id });
-            Forfait retour = new Forfait();
-
-            retour.IdForfait = (int)dico["IdForfait"];
-            retour.Libelle = dico["Libelle"].ToString();
-            retour.Prix = dico["Prix"].ToString();
-
-            return retour;
-        }
         public override int Add(Forfait o)
         {
             using (DbConnect db = new DbConnect(_cnsrt))
@@ -51,6 +40,17 @@ namespace AdopteUneDev.DbTools
 
                 return db.Update(query, dico);
             }
+        }
+
+        public Forfait MapDicoToForfait(Dictionary<string, object> Dico)
+        {
+            Forfait retour = new Forfait();
+
+            retour.IdForfait = (int)Dico["IdForfait"];
+            retour.Libelle = Dico["Libelle"].ToString();
+            retour.Prix = Dico["Prix"].ToString();
+
+            return retour;
         }
     }
 }

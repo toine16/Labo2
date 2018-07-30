@@ -49,5 +49,17 @@ namespace AdopteUneDev.DbTools
             }
         }
 
+        public Client MapDicoToClient(Dictionary<string, object> Dico)
+        {
+            Client c = new Client();
+            c.Username = Dico["UserName"].ToString();
+            c.Password = Dico["Password"].ToString();
+            c.IdEmployeur = (int)Dico["IdEmployeur"];
+            c.IdEntreprise = (int)Dico["IdEntreprise"];
+            c.IdForfait = (int)Dico[";IdForfait"];
+
+            return c;
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdopteUneDev.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdopteUneDev.Models.Global
 {
-    public class Entreprise
+    public class Entreprise : IEntity
     {
 
         #region Fields
@@ -109,7 +110,20 @@ namespace AdopteUneDev.Models.Global
             {
                 _ville = value;
             }
-        } 
+        }
+
+        public int id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+            }
+        }
         #endregion
     }
 }
