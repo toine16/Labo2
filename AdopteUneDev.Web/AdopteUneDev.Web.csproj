@@ -151,6 +151,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ListDeveloppeurModelsClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -273,7 +274,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -289,6 +289,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AdopteUneDev.API\AdopteUneDev.API.csproj">
+      <Project>{0574666A-E91E-4158-B894-55C1D284D005}</Project>
+      <Name>AdopteUneDev.API</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AdopteUneDev.DbTools\AdopteUneDev.DbTools.csproj">
       <Project>{7CE206CF-4A2A-4B82-A871-C42009A142C2}</Project>
       <Name>AdopteUneDev.DbTools</Name>

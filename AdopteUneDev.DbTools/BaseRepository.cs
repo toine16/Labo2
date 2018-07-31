@@ -69,15 +69,15 @@ namespace AdopteUneDev.DbTools
             using (DbConnect db = new DbConnect(_cnsrt))
             {
                 db.connect();
-                Dictionary<string, object> dico = new Dictionary<string, object>();
+               /* Dictionary<string, object> dico = new Dictionary<string, object>();
 
                 foreach (PropertyInfo i in o.GetType().GetProperties())
                 {
                     dico.Add(i.Name, i.GetValue(i));
-                }
+                }*/
 
                 string query = "Select * from " + o.GetType().Name;
-                retour = db.Select(query, dico);
+                retour = db.Select(query, null);
 
             }
 

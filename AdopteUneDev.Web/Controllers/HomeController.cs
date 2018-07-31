@@ -1,5 +1,8 @@
-﻿using AdopteUneDev.DbTools;
+﻿using AdopteUneDev.API.Controllers;
+using AdopteUneDev.DbTools;
 using AdopteUneDev.Interface;
+using AdopteUneDev.Models.Global;
+using AdopteUneDev.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +13,15 @@ namespace AdopteUneDev.Web.Controllers
 {
     public class HomeController : Controller
     {
-        [HttpGet]
-        public void GetTop6Dev()
-        {
-            UnitOfWork unit = new UnitOfWork();
-            unit.DeveloppeurRepository.GetAll(new Models.Global.Developpeur());
-           // unit.DeveloppeurRepository.MapTtoDico
-
-        }
 
 
         public ActionResult Index()
         {
-            return View();
+            APIController api = new APIController();
+            ListDeveloppeurModelsClient client = new ListDeveloppeurModelsClient();
+            client.Developpeurs = api.GetTop6Dev();
+
+            return View(client);
         }
 
         public ActionResult About()
@@ -38,5 +37,8 @@ namespace AdopteUneDev.Web.Controllers
 
             return View();
         }
+
+
+       
     }
 }

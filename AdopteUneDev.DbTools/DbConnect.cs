@@ -95,10 +95,11 @@ namespace AdopteUneDev.DbTools
 
                 while (oDr.Read())
                 {
-                    Dictionary<string, object> ligne = new Dictionary<string, object>();
+                    
 
                     foreach (IDataRecord item in oDr)
                     {
+                        Dictionary<string, object> ligne = new Dictionary<string, object>();
                         for (int i = 0; i < item.FieldCount; i++)
                         {
                             string key = item.GetName(i).ToString();
@@ -106,10 +107,9 @@ namespace AdopteUneDev.DbTools
 
                             ligne.Add(key, valeur);
                         }
+                        retour.Add(ligne);
 
                     }
-
-                    retour.Add(ligne);
                 }
             }
             return retour;
