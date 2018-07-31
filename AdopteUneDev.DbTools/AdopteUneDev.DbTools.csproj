@@ -55,6 +55,7 @@
     <Compile Include="Requete.cs" />
     <Compile Include="SoftskillsRepository.cs" />
     <Compile Include="TarifRepository.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdopteUneDev.Interface\AdopteUneDev.Interface.csproj">

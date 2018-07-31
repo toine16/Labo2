@@ -49,13 +49,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AdopteUneDev.API\AdopteUneDev.API.csproj">
+      <Project>{0574666a-e91e-4158-b894-55c1d284d005}</Project>
+      <Name>AdopteUneDev.API</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AdopteUneDev.DbTools\AdopteUneDev.DbTools.csproj">
       <Project>{7ce206cf-4a2a-4b82-a871-c42009a142c2}</Project>
       <Name>AdopteUneDev.DbTools</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AdopteUneDev.Interface\AdopteUneDev.Interface.csproj">
+      <Project>{441496e4-6f59-4961-915f-4187f06b8595}</Project>
+      <Name>AdopteUneDev.Interface</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AdopteUneDev.Models.Global\AdopteUneDev.Models.Global.csproj">
       <Project>{9fa9d2db-5b83-44ff-ae67-bd4a9e7ebc0e}</Project>
       <Name>AdopteUneDev.Models.Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AdopteUneDev.Web\AdopteUneDev.Web.csproj">
+      <Project>{9e79f8f2-4785-49af-871a-e5226da437f6}</Project>
+      <Name>AdopteUneDev.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

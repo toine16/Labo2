@@ -83,6 +83,9 @@ namespace AdopteUneDev.DbTools
 
             return retour;
         }
+
+        public abstract Dictionary<string, object> MapTtoDico(T o);
+        public abstract T MapDicoToT(Dictionary<string, object> dico);
     }
 }
 

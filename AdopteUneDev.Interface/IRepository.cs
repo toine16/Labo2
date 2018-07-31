@@ -14,6 +14,8 @@ namespace AdopteUneDev.DbTools
         int Update(T o);
         Dictionary<string,object> GetOne(T o);
         IEnumerable<Dictionary<string,object>> GetAll(T o);
+        Dictionary<string, object> MapTtoDico(T o);
+        T MapDicoToT(Dictionary<string, object> dico);
     }
 
 

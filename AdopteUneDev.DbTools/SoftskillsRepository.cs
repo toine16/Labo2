@@ -18,6 +18,16 @@ namespace AdopteUneDev.DbTools
             throw new NotImplementedException();
         }
 
+        public override Softskills MapDicoToT(Dictionary<string, object> dico)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Dictionary<string, object> MapTtoDico(Softskills o)
+        {
+            throw new NotImplementedException();
+        }
+
         public override int Update(Softskills o)
         {
             throw new NotImplementedException();

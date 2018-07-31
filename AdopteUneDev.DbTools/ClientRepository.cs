@@ -54,7 +54,7 @@ namespace AdopteUneDev.DbTools
             }
         }
 
-        public Client MapDicoToClient(Dictionary<string, object> Dico)
+        public override Client MapDicoToT(Dictionary<string, object> Dico)
         {
             Client c = new Client();
             c.Username = Dico["UserName"].ToString();
@@ -66,5 +66,9 @@ namespace AdopteUneDev.DbTools
             return c;
         }
 
+        public override Dictionary<string, object> MapTtoDico(Client o)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

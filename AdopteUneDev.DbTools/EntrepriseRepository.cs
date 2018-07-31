@@ -33,7 +33,7 @@ namespace AdopteUneDev.DbTools
             }
         }
 
-        public Dictionary<string,object> MapTtoDico(Entreprise o)
+        public override Dictionary<string,object> MapTtoDico(Entreprise o)
         {
             Dictionary<string, object> dico = new Dictionary<string, object>();
             dico.Add("IdEntreprise", o.IdEntreprise);
@@ -47,7 +47,7 @@ namespace AdopteUneDev.DbTools
             return dico;
         }
 
-        public Entreprise MapDicoToT(Dictionary<string, object> dico)
+        public override Entreprise MapDicoToT(Dictionary<string, object> dico)
         {
             Entreprise o = new Entreprise();
             o.IdEntreprise = (int) dico["IdEntreprise"];

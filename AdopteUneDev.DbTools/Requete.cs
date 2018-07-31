@@ -6,7 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AdopteUneDev.DbTools
-{
+{/*
+            Classe de test
+    */
     class Requete
     {
         private string _cnstr = @"Data Source=FORMA210\TFTIC;Initial Catalog=AdopteBD;Persist Security Info=True;User ID=sa;Password=Test1234=";

@@ -18,6 +18,16 @@ namespace AdopteUneDev.DbTools
             throw new NotImplementedException();
         }
 
+        public override Tarif MapDicoToT(Dictionary<string, object> dico)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Dictionary<string, object> MapTtoDico(Tarif o)
+        {
+            throw new NotImplementedException();
+        }
+
         public override int Update(Tarif o)
         {
             throw new NotImplementedException();

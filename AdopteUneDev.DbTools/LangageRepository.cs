@@ -18,6 +18,16 @@ namespace AdopteUneDev.DbTools
             throw new NotImplementedException();
         }
 
+        public override Langage MapDicoToT(Dictionary<string, object> dico)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Dictionary<string, object> MapTtoDico(Langage o)
+        {
+            throw new NotImplementedException();
+        }
+
         public override int Update(Langage o)
         {
             throw new NotImplementedException();

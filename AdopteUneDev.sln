@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdopteUneDev.Models.Global"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdopteUneDev.Interface", "AdopteUneDev.Interface\AdopteUneDev.Interface.csproj", "{441496E4-6F59-4961-915F-4187F06B8595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdopteUneDev.Web", "AdopteUneDev.Web\AdopteUneDev.Web.csproj", "{9E79F8F2-4785-49AF-871A-E5226DA437F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdopteUneDev.API", "AdopteUneDev.API\AdopteUneDev.API.csproj", "{0574666A-E91E-4158-B894-55C1D284D005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{441496E4-6F59-4961-915F-4187F06B8595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441496E4-6F59-4961-915F-4187F06B8595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441496E4-6F59-4961-915F-4187F06B8595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E79F8F2-4785-49AF-871A-E5226DA437F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E79F8F2-4785-49AF-871A-E5226DA437F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E79F8F2-4785-49AF-871A-E5226DA437F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E79F8F2-4785-49AF-871A-E5226DA437F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0574666A-E91E-4158-B894-55C1D284D005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0574666A-E91E-4158-B894-55C1D284D005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0574666A-E91E-4158-B894-55C1D284D005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0574666A-E91E-4158-B894-55C1D284D005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

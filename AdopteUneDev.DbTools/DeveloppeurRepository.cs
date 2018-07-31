@@ -19,7 +19,7 @@ namespace AdopteUneDev.DbTools
                 db.connect();
                 Dictionary<string, object> dico = MapTtoDico(o);
 
-                return db.insert(InsertCommand, dico);
+                return db.insert(_InsertCommand, dico);
             }
         }
 
@@ -30,10 +30,10 @@ namespace AdopteUneDev.DbTools
                 db.connect();
                 Dictionary<string, object> dico = MapTtoDico(o);
 
-                return db.Update(InsertCommand, dico);
+                return db.Update(_UpdateCommand, dico);
             }
         }
-        public Dictionary<string, object> MapTtoDico(Developpeur o)
+        public override Dictionary<string, object> MapTtoDico(Developpeur o)
         {
             Dictionary<string, object> dico = new Dictionary<string, object>();
             dico.Add("IdDeveloppeur", o.IdDeveloppeur);
@@ -46,7 +46,7 @@ namespace AdopteUneDev.DbTools
             return dico;
         }
 
-        public Developpeur MapDicoToT(Dictionary<string, object> dico)
+        public override Developpeur MapDicoToT(Dictionary<string, object> dico)
         {
             Developpeur o = new Developpeur();
             o.IdDeveloppeur = (int)dico["IdDeveloppeur"];

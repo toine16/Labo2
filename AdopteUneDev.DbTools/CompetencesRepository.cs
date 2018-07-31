@@ -18,6 +18,16 @@ namespace AdopteUneDev.DbTools
             throw new NotImplementedException();
         }
 
+        public override Competences MapDicoToT(Dictionary<string, object> dico)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Dictionary<string, object> MapTtoDico(Competences o)
+        {
+            throw new NotImplementedException();
+        }
+
         public override int Update(Competences o)
         {
             throw new NotImplementedException();

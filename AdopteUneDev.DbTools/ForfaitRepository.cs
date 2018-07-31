@@ -48,7 +48,7 @@ namespace AdopteUneDev.DbTools
             }
         }
 
-        public Forfait MapDicoToForfait(Dictionary<string, object> Dico)
+        public override Forfait MapDicoToT(Dictionary<string, object> Dico)
         {
             Forfait retour = new Forfait();
 
@@ -57,6 +57,11 @@ namespace AdopteUneDev.DbTools
             retour.Prix = Dico["Prix"].ToString();
 
             return retour;
+        }
+
+        public override Dictionary<string, object> MapTtoDico(Forfait o)
+        {
+            throw new NotImplementedException();
         }
     }
 }
